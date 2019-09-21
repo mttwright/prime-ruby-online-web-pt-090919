@@ -3,7 +3,8 @@ def prime?(num)
   if num == -1 || num == 0 || num == 1
     return false
   else
-  
+    
+    if num == -num
   
   
     range_array = (2..num - 1).to_a
