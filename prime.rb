@@ -3,10 +3,6 @@ def prime?(num)
   if num == -1 || num == 0 || num == 1
     return false
   else
-    
-    actual_num
-    if num == -num
-  
   
     range_array = (2..num - 1).to_a
     counter = 0
