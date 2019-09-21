@@ -4,4 +4,10 @@ def prime?(num)
   counter = 0
   while counter < range_array.length
     if num % range_array[counter] == 0
+      return false
+    else
+      counter += 1
+    end
+  end
+  true
 end
