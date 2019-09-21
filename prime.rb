@@ -4,6 +4,7 @@ def prime?(num)
     return false
   else
     
+    actual_num
     if num == -num
   
   
@@ -20,4 +21,3 @@ def prime?(num)
   end
 end
 
-puts prime?(1)
